@@ -1,0 +1,61 @@
+{
+    "entity": "event",
+    "account_id": "acc_IqmctOLN1vV405",
+    "event": "payment.captured",
+    "contains": [
+        "payment"
+    ],
+    "payload": {
+        "payment": {
+            "entity": {
+                "id": "pay_IrbYHKf4LWN6Fe",
+                "entity": "payment",
+                "amount": 500,
+                "currency": "INR",
+                "status": "captured",
+                "order_id": "order_IrbXlsZMiNFJEY",
+                "invoice_id": null,
+                "international": false,
+                "method": "card",
+                "amount_refunded": 0,
+                "refund_status": null,
+                "captured": true,
+                "description": "Test Transaction",
+                "card_id": "card_IrbYHN8pexqDcI",
+                "card": {
+                    "id": "card_IrbYHN8pexqDcI",
+                    "entity": "card",
+                    "name": "Gaurav Kumar",
+                    "last4": "1111",
+                    "network": "Visa",
+                    "type": "debit",
+                    "issuer": null,
+                    "international": false,
+                    "emi": false,
+                    "sub_type": "consumer",
+                    "token_iin": null
+                },
+                "bank": null,
+                "wallet": null,
+                "vpa": null,
+                "email": "gaurav.kumar@example.com",
+                "contact": "+919999999999",
+                "notes": {
+                    "address": "Razorpay Corporate Office"
+                },
+                "fee": 10,
+                "tax": 0,
+                "error_code": null,
+                "error_description": null,
+                "error_source": null,
+                "error_step": null,
+                "error_reason": null,
+                "acquirer_data": {
+                    "auth_code": "125272"
+                },
+                "created_at": 1643906230
+            }
+        }
+    },
+    "created_at": 1643906237
+}
